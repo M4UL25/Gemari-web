@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* HERO */
+.hero img {
+    width: 100%;
+    padding: 15px;
+}
+
+.topnav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.topnav h3{
+    position: relative;
+    left: 5%;
+}
+
+.menubar{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    text-align: center;
+}
+
